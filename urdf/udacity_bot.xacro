@@ -184,7 +184,7 @@
   </link>
 
   <joint type="fixed" name="camera_joint">
-    <origin xyz="0.2 0 0.05" rpy="0 0 0"/>   
+    <origin xyz="0.225 0 0.005" rpy="0 0 0"/>   
     <child link="camera"/>
     <parent link="chassis"/>
   </joint>
@@ -217,7 +217,7 @@
   </link>
 
   <joint type="fixed" name="hokuyo_joint">
-    <origin xyz="0.15 0 0.1" rpy="0 0 0"/>
+    <origin xyz="0.1 0 0.08" rpy="0 0 0"/>
     <child link="hokuyo"/>
     <parent link="chassis"/>
   </joint>
