@@ -169,13 +169,14 @@
     <collision name='collision'>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <box size="0.073 0.276 0.072"/>
+	<sphere radius="0.05" />
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-	<mesh filename="package://slam_project/meshes/kinect.dae" />
+	<!--<mesh filename="package://slam_project/meshes/kinect.dae" /> -->
+	<sphere radius="0.05" />
       </geometry>
       <material name="red">
             <color rgba="1.0 0 0 1.0" />
@@ -210,14 +211,14 @@
     <collision name='collision'>
       <origin xyz="0 0 0" rpy=" 0 0 0"/>
       <geometry>
-        <box size="0.1 0.1 0.1"/>
+        <sphere radius="0.05"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://slam_project/meshes/hokuyo.dae"/>
-        <!-- <box size=".1"/> -->
+        <!--<mesh filename="package://slam_project/meshes/hokuyo.dae"/>-->
+        <sphere radius=".05"/> 
       </geometry>
       <material name="blue">
             <color rgba="0 0 1.0 1.0" />
